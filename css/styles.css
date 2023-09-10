@@ -780,6 +780,10 @@ svg {
   margin-bottom: 8px;
 }
 
+.review-form-field-textarea-wrapper {
+  margin-bottom: 16px;
+}
+
 .review-form-field-label {
   /* Box model */
   margin-bottom: 4px;

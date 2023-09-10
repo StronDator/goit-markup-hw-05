@@ -776,7 +776,7 @@ svg {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .review-form-field-label {
@@ -784,6 +784,12 @@ svg {
   margin-bottom: 4px;
   display: block;
   width: 100%;
+
+  /* Typography */
+  font-size: 12px;
+  line-height: 1.17em;
+  letter-spacing: 0.04em;
+  color: var(--bg-lightslate);
 }
 
 .review-form-input-wrapper {
@@ -923,6 +929,10 @@ svg {
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
   outline: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.review-form-privacy-link {
+  color: var(--element-primary);
 }
 
 .review-form-submit {

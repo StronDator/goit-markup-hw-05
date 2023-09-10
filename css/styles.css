@@ -646,6 +646,7 @@ svg {
   /* Typography */
   color: var(--bg-text-secondary);
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 
   /* Visual */
@@ -776,7 +777,7 @@ svg {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-field-label {
